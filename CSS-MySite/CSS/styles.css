@@ -1,0 +1,53 @@
+body{
+  margin: 0 auto;
+  text-align: center;
+  font-family: verdana, sans-serif;
+
+/* this says that first it check for verdana if not available it checks for the sans-serif;
+*/
+
+
+}
+
+.top-container{
+ background-color: #FFF8F3;
+ position: relative;
+ padding-top: 5%;
+ padding-bottom: 5%;
+}
+
+/* We always have to make a position Relative to make a other position as Absolute; otherwise; the other position will be relative to the
+ parent one which in this case the "Body" element if here we have not made the top-container as relative */
+
+.middle-container{
+
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+}
+
+p{
+  font-family: 'Merriweather', serif;
+}
+
+.bottom-container{
+
+}
+
+.name{
+  font-family: 'Merienda One', cursive;
+
+}
+
+.bottom-cloud{
+  position: absolute;
+}
+
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+  padding-bottom: 2%;
+
+}
