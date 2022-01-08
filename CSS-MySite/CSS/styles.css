@@ -50,6 +50,8 @@ p {
 
 .name {
   font-family: 'Merienda One', cursive;
+  padding-top: 2%;
+  margin-top: 2rem;
 }
 
 .intro {
@@ -62,7 +64,6 @@ p {
   position: absolute;
   right: 300px;
   top: 50px;
-  padding-bottom: 2%;
   }
 
 
